@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Máximo Beneventano - DMM2C - Maquetado Web</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDrpNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+      crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/Styles_v2.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
@@ -875,33 +876,294 @@
     </div>
   </div>
 
-  <!-- TODO: el resto de secciones (FAQ, contacto, footer) solo cambian IMG y DOCS: -->
+  <section id="dudas-frecuentes">
+    <div class="faq-wrapper">
+      <article class="text-center mb-4">
+        <h2 class="titulo">Dudas Frecuentes</h2>
+      </article>
 
-  <!-- En la sección de FAQ: reemplazar -->
-  <!-- ../IMG/Flecha2.png -> IMG/Flecha2.png -->
-  <!-- ../IMG/Pregunta.png -> IMG/Pregunta.png -->
+      <div class="accordion bremmen-accordion" id="accordionFAQ">
 
-  <!-- En contacto: -->
-  <!-- ../IMG/Location.png -> IMG/Location.png
-       ../IMG/Llamada.png  -> IMG/Llamada.png
-       ../IMG/Correo2.png  -> IMG/Correo2.png
-       ../IMG/Reloj.png    -> IMG/Reloj.png -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-1">
+            <button class="accordion-button faq-pregunta collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq-collapse-1"
+                    aria-expanded="false" aria-controls="faq-collapse-1">
+              <div class="faq-inner">
+                <span class="faq-icon">
+                  <img src="IMG/Pregunta.png" alt="Pregunta">
+                </span>
+                <span class="faq-text-linea">
+                  ¿Qué tipo de productos ofrece Bremmen Company para el tratamiento de agua?
+                </span>
+              </div>
+            </button>
+          </h2>
+          <div id="faq-collapse-1" class="accordion-collapse collapse"
+               aria-labelledby="faq-heading-1" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              <div class="faq-answer-card">
+                <div class="faq-answer-header">
+                  <img src="IMG/Flecha2.png" alt="Respuesta">
+                  <span>Respuesta</span>
+                </div>
+                <p class="texto-testimonio">
+                  Bremmen Company ofrece productos químicos para clarificación,
+                  filtración, desinfección, ajuste de pH y control de corrosión,
+                  entre otros. También disponemos de soluciones integrales
+                  para aguas industriales, residuales y piscinas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <!-- En footer: -->
-  <!-- ../IMG/LogoB.png -> IMG/LogoB.png
-       ../IMG/Mail1.png -> IMG/Mail1.png
-       ../IMG/Telef1.png -> IMG/Telef1.png
-       ../IMG/twitter.png -> IMG/twitter.png
-       ../IMG/facebook.png -> IMG/facebook.png
-       ../IMG/youtube.png -> IMG/youtube.png
-       ../IMG/linkedin.png -> IMG/linkedin.png
-       ../DOCS/MSDS_bremmen_company.pdf -> DOCS/MSDS_bremmen_company.pdf
-       ../IMG/IRAM.png -> IMG/IRAM.png
-       ../IMG/ISO.png  -> IMG/ISO.png
-       ../IMG/SENASA.png -> IMG/SENASA.png
-       ../IMG/ANMAT.png -> IMG/ANMAT.png
-       ../IMG/INTI.png  -> IMG/INTI.png
-       ../IMG/OPDS.jpg  -> IMG/OPDS.jpg -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-2">
+            <button class="accordion-button faq-pregunta collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq-collapse-2"
+                    aria-expanded="false" aria-controls="faq-collapse-2">
+              <div class="faq-inner">
+                <span class="faq-icon">
+                  <img src="IMG/Pregunta.png" alt="Pregunta">
+                </span>
+                <span class="faq-text-linea">
+                  ¿Realizan asesoramiento técnico para elegir el producto adecuado?
+                </span>
+              </div>
+            </button>
+          </h2>
+          <div id="faq-collapse-2" class="accordion-collapse collapse"
+               aria-labelledby="faq-heading-2" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              <div class="faq-answer-card">
+                <div class="faq-answer-header">
+                  <img src="IMG/Flecha2.png" alt="Respuesta">
+                  <span>Respuesta</span>
+                </div>
+                <p class="texto-testimonio">
+                  Sí. Contamos con un equipo técnico que analiza cada caso
+                  y recomienda el tratamiento más conveniente según el tipo de
+                  agua, la aplicación y las condiciones de uso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-3">
+            <button class="accordion-button faq-pregunta collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq-collapse-3"
+                    aria-expanded="false" aria-controls="faq-collapse-3">
+              <div class="faq-inner">
+                <span class="faq-icon">
+                  <img src="IMG/Pregunta.png" alt="Pregunta">
+                </span>
+                <span class="faq-text-linea">
+                  ¿Bremmen Company trabaja solo en CABA o también en otras provincias?
+                </span>
+              </div>
+            </button>
+          </h2>
+          <div id="faq-collapse-3" class="accordion-collapse collapse"
+               aria-labelledby="faq-heading-3" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              <div class="faq-answer-card">
+                <div class="faq-answer-header">
+                  <img src="IMG/Flecha2.png" alt="Respuesta">
+                  <span>Respuesta</span>
+                </div>
+                <p class="texto-testimonio">
+                  Operamos en CABA y en distintas regiones del país a través de
+                  distribuidores y acuerdos con empresas locales, brindando
+                  soporte técnico remoto y presencial cuando es necesario.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-4">
+            <button class="accordion-button faq-pregunta collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq-collapse-4"
+                    aria-expanded="false" aria-controls="faq-collapse-4">
+              <div class="faq-inner">
+                <span class="faq-icon">
+                  <img src="IMG/Pregunta.png" alt="Pregunta">
+                </span>
+                <span class="faq-text-linea">
+                  ¿Los productos cuentan con certificaciones y habilitaciones vigentes?
+                </span>
+              </div>
+            </button>
+          </h2>
+          <div id="faq-collapse-4" class="accordion-collapse collapse"
+               aria-labelledby="faq-heading-4" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              <div class="faq-answer-card">
+                <div class="faq-answer-header">
+                  <img src="IMG/Flecha2.png" alt="Respuesta">
+                  <span>Respuesta</span>
+                </div>
+                <p class="texto-testimonio">
+                  Sí. Nuestros productos cumplen normas nacionales e
+                  internacionales y cuentan con certificaciones como ISO,
+                  SENASA, ANMAT, INTI, entre otras, según cada línea.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <article class="text-center">
+      <h2 class="titulo">Contacto</h2>
+    </article>
+
+    <div class="contacto-wrapper">
+
+      <div class="contacto-form">
+        <h3 class="subtitulo-contacto">Envíanos tu consulta</h3>
+        <p class="texto-contacto">
+          Completá el siguiente formulario y un representante de Bremmen Company
+          se comunicará con vos a la brevedad.
+        </p>
+
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" id="nombre" class="form-control" placeholder="Escribí tu nombre completo">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" class="form-control" placeholder="ejemplo@correo.com">
+          </div>
+
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="form-control" placeholder="+54 11 1234-5678">
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" class="form-control"
+                      placeholder="Contanos brevemente en qué podemos ayudarte"></textarea>
+          </div>
+
+          <button type="submit" class="btn-enviar">Enviar consulta</button>
+        </form>
+      </div>
+
+      <div class="contacto-info">
+        <div class="mapa-container">
+          <iframe
+            class="mapa-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.987597007842!2d-58.38155958477047!3d-34.60368458045932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacbf0c9e6e7%3A0x0!2sObelisco!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="datos-contacto">
+          <h3 class="subtitulo-datos">Datos de contacto</h3>
+
+          <div class="dato-item">
+            <img src="IMG/Location.png" alt="Ubicación" class="icono-dato">
+            <div>
+              <p class="dato-titulo">Dirección</p>
+              <p class="dato-texto">Av. Ejemplo 1234, CABA, Argentina</p>
+            </div>
+          </div>
+
+          <div class="dato-item">
+            <img src="IMG/Llamada.png" alt="Teléfono" class="icono-dato">
+            <div>
+              <p class="dato-titulo">Teléfono</p>
+              <p class="dato-texto">+54 11 6926-6109</p>
+            </div>
+          </div>
+
+          <div class="dato-item">
+            <img src="IMG/Correo2.png" alt="Correo" class="icono-dato">
+            <div>
+              <p class="dato-titulo">Correo electrónico</p>
+              <p class="dato-texto">contacto@bremmencompany.com</p>
+            </div>
+          </div>
+
+          <div class="dato-item">
+            <img src="IMG/Reloj.png" alt="Horarios" class="icono-dato">
+            <div>
+              <p class="dato-titulo">Horarios de atención</p>
+              <p class="dato-texto">Lunes a viernes de 9 a 18 hs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-container">
+
+      <div class="footer-logo">
+        <img src="IMG/LogoB.png" alt="Bremmen Company">
+        <p>Soluciones Químicas para el Agua</p>
+        <a href="DOCS/MSDS_bremmen_company.pdf" class="msds-link" target="_blank">
+          Ver ficha MSDS
+        </a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contacto directo</h4>
+        <ul>
+          <li>
+            <a href="mailto:maxitano006@gmail.com">
+              <img src="IMG/Mail1.png" alt="Mail" style="width:20px; height:20px; margin-right:8px;">
+              Mail
+            </a>
+          </li>
+          <li>
+            <a href="tel:+541169266109">
+              <img src="IMG/Telef1.png" alt="Teléfono" style="width:20px; height:20px; margin-right:8px;">
+              Contacto
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-info">
+        <h4>Seguinos</h4>
+        <div class="footer-social">
+          <a href="#"><img src="IMG/twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="IMG/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="IMG/youtube.png" alt="YouTube"></a>
+          <a href="#"><img src="IMG/linkedin.png" alt="LinkedIn"></a>
+        </div>
+
+        <div class="footer-certificaciones">
+          <img src="IMG/IRAM.png" alt="IRAM">
+          <img src="IMG/ISO.png" alt="ISO">
+          <img src="IMG/SENASA.png" alt="SENASA">
+          <img src="IMG/ANMAT.png" alt="ANMAT">
+          <img src="IMG/INTI.png" alt="INTI">
+          <img src="IMG/OPDS.jpg" alt="OPDS">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Bremmen Company. Proyecto académico - Máximo Beneventano - DMM2C.</p>
+    </div>
+  </footer>
 
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
