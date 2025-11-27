@@ -1148,7 +1148,7 @@ section {
 
 #contacto {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .contacto-wrapper {
@@ -1903,4 +1903,16 @@ section {
     justify-content: center;
     margin-top: 12px;
   }
+}
+
+#banner,
+#categorias,
+#packs,
+#Porque-BC,
+#dedicacion,
+#noticias,
+#opiniones,
+#dudas-frecuentes,
+#contacto {
+  scroll-margin-top: 100px;
 }
